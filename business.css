@@ -1,0 +1,179 @@
+* {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+/* タイトル */
+
+#content {
+  margin-bottom: 25px;
+  /* height: 900px; */
+  padding-left: 20px;
+}
+
+#content h2 {
+  background-color: #2aabe5;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#content p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* 事業内容 */
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  width: 40%;
+}
+
+.box-small {
+  padding: 0 25px;
+  margin-bottom: 40px;
+  /* background-color: aqua; */
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #999999;
+  padding: 0.2em 1em;
+  margin-bottom: 25px;
+  margin-left: 40px;
+}
+
+.photo {
+  border: 1px solid #999999;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.box-small img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* form */
+
+#content h2 {
+  margin-bottom: 0;
+}
+
+.top {}
+
+form {
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #cccc;
+}
+
+.form-title {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+  font-size: 30px;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+button {
+  /* margin-top: 50px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 10px 13px 11px;
+  line-height: 1;
+  text-align: center;
+  background-color: #009ecf;
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  left: 600px;
+  top: 80px;
+}
+
+label, .items {
+  text-align: right;
+  position: relative;
+  bottom: 8px;
+  right: 30px;
+  /* margin-right: 20px; */
+  display: inline-block;
+  vertical-align: middle;
+  width: 120px;
+  background-color: #cc3366;
+}
+
+.items {
+  background-color: #009ecf;
+}
+
+label span {
+  border: 1px solid #ccc;
+  background-color: #cc3366;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px;
+  font-size: 5px;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  top: 0px;
+  display: inline-block;
+}
+
+input {
+  width: 400px;
+  /* white-space: nowrap; */
+  padding: 10px 13px 11px;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 4px;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+button:hover {
+  color: #ccc;
+}
+
+.items {
+  width: 0;
+  margin-left: 120px;
+}
+
+/* 技術情報 */
+
+.sub {
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 100px;
+  /* background-color: coral; */
+  text-align: center;
+}
+
+.sub h1 span {
+  font-size: 30px;
+  color: chartreuse;
+}

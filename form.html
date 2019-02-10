@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>お問い合わせ</title>
+  <link rel="stylesheet" href="business.css">
+</head>
+
+<body>
+  <div id="content">
+    <!-- タイトル -->
+    <h2>Company name</h2>
+
+
+
+    <!-- フォーム -->
+    <form action="#" method="POST">
+      <h1>お問い合わせ 内容入力</h1>
+      <p>お問い合わせ内容をご入力の上、「確認画面へ」をクリックしてください。</p>
+      <div class="top">
+        <div>
+          <label>お名前<br><span>必須</span></label>
+          <input type="text" name="name" placeholder="例) 山田 太郎" value="">
+        </div>
+        <div>
+          <label>ふりがな<br><span>必須</span></label>
+          <input type="text" name="name" placeholder="例) やまだ たろう" value="">
+        </div>
+        <div>
+          <label>メールアドレス<br><span>必須</span></label>
+          <input type="text" name="mail" placeholder="例) guest@example.jp" value="">
+        </div>
+        <div>
+          <label>電話番号<br><span>必須</span></label>
+          <input type="text" name="tel" placeholder="例) 0000000" value="">
+        </div>
+        <div>
+          <label>性別<br><span>必須</span></label>
+          <input type="radio" name="sex" value="男性" checked>男性
+          <input type="radio" name="sex" value="女性">女性
+        </div>
+
+        <div class="items">
+          <label>お問い合わせ項目<br><span>必須</span></label>
+          <select name="item">
+            <option value="">お問い合わせ項目を選択してください</option>
+            <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+            <option value="ご意見・ご感想">ご意見・ご感想</option>
+          </select>
+          <div class="items">
+            <label>お問い合わせ内容<br><span>必須</span></label>
+            <textarea name="comment" cols="30" rows="10" placeholder="お問い合わせ内容を入力"></textarea>
+          </div>
+
+        </div>
+      </div>
+    </form>
+    <button type="submit">確認画面へ</button>
+  </div>
+</body>
+
+</html>
